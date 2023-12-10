@@ -4,31 +4,77 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f83c6a4a-b521-45ca-b7c2-54012433eac2" name="Changes" comment="" />
+    <list default="true" id="f83c6a4a-b521-45ca-b7c2-54012433eac2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/controllers/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/exceptions/AccountNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/mappers/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/dtos/AccountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/enums/AccountType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/repositories/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/services/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2ZDcCNIqiORutjdzIjHQxajjqGu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/matia/OneDrive/Documents/MatiProg/Curso CAC/Spring/Final/TpCodoaCodo"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/matia/OneDrive/Documents/MatiProg/Curso CAC/Spring/Final/TpCodoaCodo&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="All in TP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in TP" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,5 +85,15 @@
       <updated>1701959961724</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.UnsatisfiedDependencyException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
