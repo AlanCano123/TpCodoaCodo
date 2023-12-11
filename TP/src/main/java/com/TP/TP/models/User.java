@@ -1,6 +1,6 @@
 package com.TP.TP.models;
 
-
+import com.TP.TP.models.Prestamo;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -32,6 +32,10 @@ public class User {
     private String surname;
 
     private String dni;
+
+    @OneToOne
+    private Prestamo prestamo;
+
 
 
 }

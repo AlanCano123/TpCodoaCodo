@@ -3,6 +3,7 @@ package com.TP.TP.models;
 import com.TP.TP.models.enums.AccountType;
 import jakarta.persistence.*;
 import lombok.*;
+import com.TP.TP.models.User;
 
 import java.math.BigDecimal;
 

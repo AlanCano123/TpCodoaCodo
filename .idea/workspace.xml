@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f83c6a4a-b521-45ca-b7c2-54012433eac2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/controllers/TransferController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/exceptions/InsufficientFoundsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/exceptions/TransferNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/mappers/TransferMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/Transfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/dtos/TransferDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/repositories/TransferRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/services/TransferService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/services/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/services/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/controllers/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/controllers/AccountController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +28,6 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
   <component name="ProjectId" id="2ZDcCNIqiORutjdzIjHQxajjqGu" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,15 +36,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/matia/OneDrive/Documents/MatiProg/Curso CAC/Spring/Final/TpCodoaCodo&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.TP.TP.exceptions" />
