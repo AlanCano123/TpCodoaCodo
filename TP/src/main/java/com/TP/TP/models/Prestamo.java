@@ -1,4 +1,5 @@
 package com.TP.TP.models;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import jakarta.persistence.*;
 import lombok.*;
 import com.TP.TP.models.User;
@@ -29,7 +30,5 @@ public class Prestamo {
 
    @OneToOne
    private User user;
-
-
 
 }

@@ -1,6 +1,5 @@
 package com.TP.TP.controllers;
 
-import com.TP.TP.exceptions.UserNotExistsException;
 import com.TP.TP.models.dtos.UserDTO;
 import com.TP.TP.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

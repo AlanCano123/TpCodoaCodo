@@ -35,7 +35,4 @@ public class User {
 
     @OneToOne
     private Prestamo prestamo;
-
-
-
 }

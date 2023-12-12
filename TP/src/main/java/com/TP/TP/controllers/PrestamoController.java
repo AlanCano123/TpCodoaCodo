@@ -20,12 +20,14 @@ public class PrestamoController {
     }
 
     @PostMapping
-    public ResponseEntity<Prestamo> crearPrestamo(@RequestBody Prestamo prestamoRequest) {
-        return ResponseEntity.status(HttpStatus.CREATED).body(service.crearPrestamo(prestamoRequest,3L,30));
+    public ResponseEntity<Prestamo> createPrestamo(@RequestBody Prestamo prestamoRequest) {
+        Prestamo prestamo = service.crearPrestamo(prestamoRequest,1L,15);
+        return ResponseEntity.status(HttpStatus.CREATED).body(prestamo);
     }
 
     @GetMapping
-    public ResponseEntity<List<Prestamo>> traer(){
-        return ResponseEntity.status(HttpStatus.OK).body(service.traer());
+    public ResponseEntity<List<Prestamo>> getPrestamos(){
+        return ResponseEntity.status(HttpStatus.OK)
+                .body(service.traer());
     }
 }

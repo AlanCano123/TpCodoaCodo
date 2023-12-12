@@ -25,7 +25,7 @@ public class PrestamoService {
 
     public Prestamo crearPrestamo(Prestamo prestamo,Long id,int dias){
     Optional<User> user = repository.findById(id);
-    if(!user.isPresent()){
+    if(user.isEmpty()){
         throw new UserNotExistsException("este user no existe");
     }
     prestamo.setDescripcion("Prestamo de rodado");
@@ -39,21 +39,18 @@ public class PrestamoService {
     }
 
     public double calculoIntereses(double monto,int dias){
-        double montoFinal=0;
+        double montoFinal;
+        double calculo;
         if(dias<30){
-            double calculo =  (monto*dias*0.020);
-            montoFinal=montoFinal+calculo;
+            calculo = (monto * dias * 0.020);
         }else{
-            double calculo =  (monto*dias*0.030);
-            montoFinal=montoFinal+calculo;
+            calculo = (monto * dias * 0.030);
         }
+        montoFinal=monto + calculo;
         return montoFinal;
     }
 
     public List<Prestamo> traer(){
-         List<Prestamo> lista= prestamoRepository.findAll();
-                return lista;
-
-
+        return prestamoRepository.findAll();
     }
 }
