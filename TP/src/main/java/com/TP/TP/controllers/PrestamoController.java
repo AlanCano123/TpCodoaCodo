@@ -1,4 +1,5 @@
 package com.TP.TP.controllers;
+import com.TP.TP.models.dtos.PrestamoDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,14 +21,14 @@ public class PrestamoController {
     }
 
     @PostMapping
-    public ResponseEntity<Prestamo> createPrestamo(@RequestBody Prestamo prestamoRequest) {
-        Prestamo prestamo = service.crearPrestamo(prestamoRequest,1L,15);
+        public ResponseEntity<PrestamoDTO> createPrestamo(@RequestBody PrestamoDTO prestamoDtoRequest) {
+        PrestamoDTO prestamo = service.createPrestamo(prestamoDtoRequest,30);
         return ResponseEntity.status(HttpStatus.CREATED).body(prestamo);
     }
 
     @GetMapping
-    public ResponseEntity<List<Prestamo>> getPrestamos(){
+    public ResponseEntity<List<PrestamoDTO>> getPrestamos(){
         return ResponseEntity.status(HttpStatus.OK)
-                .body(service.traer());
+                .body(service.getPrestamos());
     }
 }

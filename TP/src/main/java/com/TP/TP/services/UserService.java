@@ -19,8 +19,6 @@ public class UserService {
     @Autowired
     private UserRepository repository;
 
-
-
     public List<UserDTO> getUsers(){
         // Obtengo la lista de la entidad usuario de la db
         List<User> users = repository.findAll();

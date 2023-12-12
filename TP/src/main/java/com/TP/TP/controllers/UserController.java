@@ -20,8 +20,6 @@ public class UserController {
         this.service = service;
     }
 
-
-
     @GetMapping
     public ResponseEntity<List<UserDTO>> getUsers(){
         List<UserDTO> lista = service.getUsers();

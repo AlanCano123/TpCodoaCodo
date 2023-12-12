@@ -1,41 +1,46 @@
 package com.TP.TP.services;
+import com.TP.TP.exceptions.AccountNotFoundException;
+import com.TP.TP.mappers.PrestamoMapper;
+import com.TP.TP.models.Account;
+import com.TP.TP.models.dtos.PrestamoDTO;
+import com.TP.TP.repositories.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.TP.TP.repositories.UserRepository;
-import  com.TP.TP.models.User;
 import com.TP.TP.exceptions.UserNotExistsException;
 import  com.TP.TP.models.Prestamo;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
+
 import com.TP.TP.repositories.PrestamoRepository;
 
 @Service
 public class PrestamoService {
-    @Autowired
-    private final UserRepository repository;
 
+    private final AccountRepository accountRepository;
     @Autowired
     private final PrestamoRepository prestamoRepository;
 
-    public PrestamoService(UserRepository repository, PrestamoRepository prestamoRepository) {
-        this.repository = repository;
+    public PrestamoService(AccountRepository accountRepository, PrestamoRepository prestamoRepository) {
+        this.accountRepository = accountRepository;
         this.prestamoRepository = prestamoRepository;
     }
 
-    public Prestamo crearPrestamo(Prestamo prestamo,Long id,int dias){
-    Optional<User> user = repository.findById(id);
-    if(user.isEmpty()){
-        throw new UserNotExistsException("este user no existe");
+    public PrestamoDTO createPrestamo(PrestamoDTO dto,int dias){
+    Optional<Account> account = accountRepository.findById(dto.getIdAccount());
+    if(account.isEmpty()){
+        throw new AccountNotFoundException("Esta cuenta no existe");
     }
-    prestamo.setDescripcion("Prestamo de rodado");
-    prestamo.setMonto(calculoIntereses(prestamo.getMonto(), dias));
-    prestamo.setVencimiento(LocalDate.now().plusDays(dias));
-    prestamo.setUser(user.get());
-    user.get().setPrestamo(prestamo);
-    prestamoRepository.save(prestamo);
-    repository.save(user.get());
-    return prestamo;
+    dto.setMonto(calculoIntereses(dto.getMonto(), dias));
+    dto.setVencimiento(LocalDate.now().plusDays(dias));
+    Prestamo nuevoPrestamo = PrestamoMapper.dtoToPrestamo(dto);
+    account.get().setIdPrestamo(nuevoPrestamo.getId());
+    nuevoPrestamo.setIdAccount(account.get().getId());
+    accountRepository.save(account.get());
+    prestamoRepository.save(nuevoPrestamo);
+    return PrestamoMapper.prestamoToDTO(nuevoPrestamo);
     }
 
     public double calculoIntereses(double monto,int dias){
@@ -50,7 +55,11 @@ public class PrestamoService {
         return montoFinal;
     }
 
-    public List<Prestamo> traer(){
-        return prestamoRepository.findAll();
+    public List<PrestamoDTO> getPrestamos(){
+        List<Prestamo> prestamos = prestamoRepository.findAll();
+        return prestamos.stream()
+                .map(PrestamoMapper::prestamoToDTO)
+                .collect(Collectors.toList());
     }
+
 }

@@ -28,7 +28,6 @@ public class Prestamo {
     @Column(name = "vencimiento")
     private LocalDate vencimiento;
 
-   @OneToOne
-   private User user;
+    private Long idAccount;
 
 }

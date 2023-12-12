@@ -33,6 +33,4 @@ public class User {
 
     private String dni;
 
-    @OneToOne
-    private Prestamo prestamo;
 }

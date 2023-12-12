@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f83c6a4a-b521-45ca-b7c2-54012433eac2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/mappers/PrestamoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/dtos/PrestamoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/controllers/PrestamoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/controllers/PrestamoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/mappers/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/mappers/AccountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/Prestamo.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/Prestamo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/dtos/AccountDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/dtos/AccountDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/services/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/services/AccountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/services/PrestamoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/services/PrestamoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/services/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +40,10 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2ZDcCNIqiORutjdzIjHQxajjqGu" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,12 +52,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.TP.TP.exceptions" />

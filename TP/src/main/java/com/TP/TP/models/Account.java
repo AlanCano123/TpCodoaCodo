@@ -26,7 +26,7 @@ public class Account {
     @Column(name = "monto")
     private BigDecimal amount;
 
-    @ManyToOne
-    @JoinColumn(name = "usuario")
-    private User owner;
+    private Long idOwner;
+
+    private Long idPrestamo;
 }
