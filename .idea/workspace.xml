@@ -5,20 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f83c6a4a-b521-45ca-b7c2-54012433eac2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/mappers/PrestamoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/dtos/PrestamoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/auth/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/auth/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/auth/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/auth/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/auth/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/controllers/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/jwt/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/jwt/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/enums/UserRole.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/controllers/PrestamoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/controllers/PrestamoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/mappers/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/mappers/AccountMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/Prestamo.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/Prestamo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/dtos/AccountDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/dtos/AccountDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/services/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/services/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/services/PrestamoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/services/PrestamoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/repositories/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,18 +56,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/workspace/TpCodoaCodo"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.TP.TP.auth" />
       <recent name="com.TP.TP.exceptions" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.TP.TP.Auth" />
+      <recent name="com.TP.TP.auth" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TpApplication">
+    <configuration name="TpApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.TP.TP.TpApplication" />
+      <module name="TP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.TP.TP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in TP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP" />
       <option name="PACKAGE_NAME" value="" />
@@ -74,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TpApplication" />
         <item itemvalue="JUnit.All in TP" />
       </list>
     </recent_temporary>

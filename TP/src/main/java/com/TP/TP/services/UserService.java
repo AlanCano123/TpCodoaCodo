@@ -72,6 +72,7 @@ public class UserService {
 
             if (dto.getEmail() != null){
                 userToModify.setEmail(dto.getEmail());
+
             }
 
             if (dto.getPassword() != null){
