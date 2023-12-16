@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f83c6a4a-b521-45ca-b7c2-54012433eac2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/auth/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/auth/AuthResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/auth/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/auth/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/auth/RegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/config/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/controllers/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/jwt/JwtAuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/jwt/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/enums/UserRole.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/auth/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/auth/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/auth/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/mappers/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/mappers/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/dtos/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/models/dtos/UserDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/java/com/TP/TP/services/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TP/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -56,15 +47,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/workspace/TpCodoaCodo"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/workspace/TpCodoaCodo&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.TP.TP.auth" />

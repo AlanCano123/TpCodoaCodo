@@ -4,6 +4,7 @@ import com.TP.TP.exceptions.UserNotExistsException;
 import com.TP.TP.mappers.UserMapper;
 import com.TP.TP.models.User;
 import com.TP.TP.models.dtos.UserDTO;
+import com.TP.TP.models.enums.UserRole;
 import com.TP.TP.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -31,6 +32,7 @@ public class UserService {
 
     public UserDTO createUser(UserDTO userDto){
         User userValidated = validateUserByEmail(userDto);
+        userDto.setRole(UserRole.USER);
         if (userValidated == null){
             User userSaved = repository.save(UserMapper.dtoToUser(userDto));
             return UserMapper.userToDto(userSaved);
@@ -68,6 +70,12 @@ public class UserService {
 
             if (dto.getSurname() != null){
                 userToModify.setSurname(dto.getSurname());
+            }
+            if (dto.getUsername() != null){
+                userToModify.setUsername(dto.getUsername());
+            }
+            if (dto.getRole() != null){
+                userToModify.setRole(dto.getRole());
             }
 
             if (dto.getEmail() != null){
